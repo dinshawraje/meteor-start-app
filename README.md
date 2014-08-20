@@ -19,12 +19,17 @@ Now with this command your app will be created and when you will go inside the a
   // Shared code goes here
   
   if (Meteor.isClient) {
-    // Client code
+  
+      // Client code
+      
   }
   
   if (Meteor.isServer) {
+  
     // Server code
+    
   }
+  
 So to saperately define the client code and the server code we will remove these file by:
   cd chatapp
   rm chatapp.*
